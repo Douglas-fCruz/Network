@@ -21,8 +21,8 @@ Dispositivos utilizados:
 
 ## Estrutura da rede
 
-- VLAN 10 → 192.168.0.0/24
-- VLAN 20 → 192.168.1.0/24
+- VLAN 1 → 192.168.0.0/24
+- VLAN 2 → 192.168.1.0/24
 
 O roteador realiza o roteamento entre as VLANs utilizando Router-on-a-Stick (802.1Q).
 
@@ -48,8 +48,8 @@ O roteador foi configurado como servidor DHCP para distribuição automática de
 
 Pools DHCP configurados:
 
-- VLAN 10 → 192.168.0.0
-- VLAN 20 → 192.168.1.0
+- VLAN 1 → 192.168.0.0
+- VLAN 2 → 192.168.1.0
 
 ![DHCP](configuration/dhcp-config.png)
 
