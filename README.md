@@ -103,6 +103,7 @@ name VLAN_192.168.1.0
 
 ## Router on a Stick
 
+```bash
 interface g0/0.10
 encapsulation dot1Q 10
 ip address 192.168.0.1 255.255.255.0
@@ -110,7 +111,7 @@ ip address 192.168.0.1 255.255.255.0
 interface g0/0.20
 encapsulation dot1Q 20
 ip address 192.168.1.1 255.255.255.0
-
+```
 ## DHCP
 
 ip dhcp pool VLAN10
