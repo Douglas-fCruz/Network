@@ -115,12 +115,12 @@ ip address 192.168.1.1 255.255.255.0
 ## DHCP
 
 ```bash
-ip dhcp pool VLAN10
+ip dhcp pool VLAN1
 network 192.168.0.0 255.255.255.0
 default-router 192.168.0.1
 dns-server 8.8.8.8
 
-ip dhcp pool VLAN20
+ip dhcp pool VLAN2
 network 192.168.1.0 255.255.255.0
 default-router 192.168.1.1
 dns-server 8.8.8.8
