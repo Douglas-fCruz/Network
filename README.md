@@ -1,5 +1,3 @@
-Network Simulation | VLAN | DHCP | Cisco Packet Tracer
-
 # LAN Network Simulation - Cisco Packet Tracer
 
 Este projeto apresenta a simulação de uma rede LAN corporativa desenvolvida utilizando o Cisco Packet Tracer.
